@@ -30,9 +30,9 @@ interface ModelInfo {
 const MODEL_STORAGE_KEY = 'mtp.selectedModel';
 const DEFAULT_MODEL_ID = 'gemini-2.5-flash';
 const FALLBACK_MODELS: ModelInfo[] = [
-  { id: 'gemini-2.5-flash', label: 'Gemini 2.5 Flash (Recommended)' },
+  { id: 'gemini-2.5-flash', label: 'Gemini 2.5 Flash' },
   { id: 'gemini-2.0-flash', label: 'Gemini 2.0 Flash' },
-  { id: 'gemini-3.5-flash', label: 'Gemini 3.5 Flash (legacy)' },
+  { id: 'gemini-3.5-flash', label: 'Gemini 3.5 Flash' },
   { id: 'gemma-4-31b-it', label: 'Gemma 4 31B IT' },
 ];
 
@@ -380,7 +380,7 @@ export default function AIChatCanvas({ isOpen, onClose, activeTripId, onTripUpda
                   <Sparkles className="w-4 h-4" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-sm text-slate-100">AI Trip Planner</h3>
+                  <h3 className="font-bold text-sm text-slate-100">Travel AI</h3>
                   <p className="text-[10px] text-slate-400 font-medium">Powered by Gemini</p>
                 </div>
               </div>

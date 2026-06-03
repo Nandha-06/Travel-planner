@@ -593,7 +593,7 @@ export default function MapComponent() {
               </svg>
             </div>
             <div>
-              <h1 className="font-extrabold text-sm uppercase tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-slate-100 to-slate-300">Trip Planner</h1>
+              <h1 className="font-extrabold text-sm uppercase tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-slate-100 to-slate-300">Travel Planner</h1>
             </div>
           </div>
           <button

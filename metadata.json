@@ -1,1 +1,6 @@
-{"name":"Trip Planner","description":"Explore top global cities and save destinations using this open-source trip planner","requestFramePermissions":[],"majorCapabilities":["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]}
+{
+  "name": "Travel Planner",
+  "description": "Plan trips, explore destinations on an interactive map, and organize every detail of your journey.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

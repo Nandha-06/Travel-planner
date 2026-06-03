@@ -26,9 +26,9 @@ dotenv.config();
 loadDb();
 
 const SUPPORTED_MODELS = [
-  { id: "gemini-2.5-flash", label: "Gemini 2.5 Flash (Recommended)", provider: "google" },
+  { id: "gemini-2.5-flash", label: "Gemini 2.5 Flash", provider: "google" },
   { id: "gemini-2.0-flash", label: "Gemini 2.0 Flash", provider: "google" },
-  { id: "gemini-3.5-flash", label: "Gemini 3.5 Flash (legacy)", provider: "google" },
+  { id: "gemini-3.5-flash", label: "Gemini 3.5 Flash", provider: "google" },
   { id: "gemma-4-31b-it", label: "Gemma 4 31B IT", provider: "google" },
 ] as const;
 
