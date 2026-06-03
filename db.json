@@ -1,0 +1,488 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "title": "Chennai to Bangalore Romantic Getaway",
+      "start_date": "2025-05-14",
+      "end_date": "2025-05-19",
+      "currency": "USD",
+      "is_archived": false,
+      "created_at": "2026-06-02T22:42:00.892Z"
+    },
+    {
+      "id": 2,
+      "title": "Chennai to Bangalore Romantic Getaway",
+      "start_date": "2025-05-01",
+      "end_date": "2025-05-06",
+      "currency": "USD",
+      "is_archived": false,
+      "created_at": "2026-06-02T22:43:19.413Z"
+    },
+    {
+      "id": 3,
+      "title": "Chennai to Bangalore Romantic Getaway",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-06",
+      "currency": "USD",
+      "is_archived": false,
+      "created_at": "2026-06-02T22:54:00.815Z"
+    }
+  ],
+  "days": [
+    {
+      "id": 1,
+      "trip_id": 1,
+      "day_number": 1,
+      "date": "2025-05-14",
+      "title": "Day 1"
+    },
+    {
+      "id": 2,
+      "trip_id": 1,
+      "day_number": 2,
+      "date": "2025-05-15",
+      "title": "Day 2"
+    },
+    {
+      "id": 3,
+      "trip_id": 1,
+      "day_number": 3,
+      "date": "2025-05-16",
+      "title": "Day 3"
+    },
+    {
+      "id": 4,
+      "trip_id": 1,
+      "day_number": 4,
+      "date": "2025-05-17",
+      "title": "Day 4"
+    },
+    {
+      "id": 5,
+      "trip_id": 1,
+      "day_number": 5,
+      "date": "2025-05-18",
+      "title": "Day 5"
+    },
+    {
+      "id": 6,
+      "trip_id": 1,
+      "day_number": 6,
+      "date": "2025-05-19",
+      "title": "Day 6"
+    },
+    {
+      "id": 7,
+      "trip_id": 2,
+      "day_number": 1,
+      "date": "2025-05-01",
+      "title": "Day 1"
+    },
+    {
+      "id": 8,
+      "trip_id": 2,
+      "day_number": 2,
+      "date": "2025-05-02",
+      "title": "Day 2"
+    },
+    {
+      "id": 9,
+      "trip_id": 2,
+      "day_number": 3,
+      "date": "2025-05-03",
+      "title": "Day 3"
+    },
+    {
+      "id": 10,
+      "trip_id": 2,
+      "day_number": 4,
+      "date": "2025-05-04",
+      "title": "Day 4"
+    },
+    {
+      "id": 11,
+      "trip_id": 2,
+      "day_number": 5,
+      "date": "2025-05-05",
+      "title": "Day 5"
+    },
+    {
+      "id": 12,
+      "trip_id": 2,
+      "day_number": 6,
+      "date": "2025-05-06",
+      "title": "Day 6"
+    },
+    {
+      "id": 13,
+      "trip_id": 3,
+      "day_number": 1,
+      "date": "2025-06-01",
+      "title": "Day 1"
+    },
+    {
+      "id": 14,
+      "trip_id": 3,
+      "day_number": 2,
+      "date": "2025-06-02",
+      "title": "Day 2"
+    },
+    {
+      "id": 15,
+      "trip_id": 3,
+      "day_number": 3,
+      "date": "2025-06-03",
+      "title": "Day 3"
+    },
+    {
+      "id": 16,
+      "trip_id": 3,
+      "day_number": 4,
+      "date": "2025-06-04",
+      "title": "Day 4"
+    },
+    {
+      "id": 17,
+      "trip_id": 3,
+      "day_number": 5,
+      "date": "2025-06-05",
+      "title": "Day 5"
+    },
+    {
+      "id": 18,
+      "trip_id": 3,
+      "day_number": 6,
+      "date": "2025-06-06",
+      "title": "Day 6"
+    }
+  ],
+  "places": [
+    {
+      "id": 1,
+      "trip_id": 1,
+      "name": "Lalbagh Botanical Garden"
+    },
+    {
+      "id": 2,
+      "trip_id": 1,
+      "name": "Bangalore Palace"
+    },
+    {
+      "id": 3,
+      "trip_id": 1,
+      "name": "Cubbon Park"
+    },
+    {
+      "id": 4,
+      "trip_id": 1,
+      "name": "NGMA (National Gallery of Modern Art)"
+    },
+    {
+      "id": 5,
+      "trip_id": 1,
+      "name": "Commercial Street"
+    },
+    {
+      "id": 6,
+      "trip_id": 1,
+      "name": "Bannerghatta Biological Park"
+    },
+    {
+      "id": 7,
+      "trip_id": 1,
+      "name": "ISKCON Temple Bangalore"
+    },
+    {
+      "id": 8,
+      "trip_id": 1,
+      "name": "UB City"
+    },
+    {
+      "id": 9,
+      "trip_id": 2,
+      "name": "The Leela Palace Bangalore"
+    },
+    {
+      "id": 10,
+      "trip_id": 2,
+      "name": "Lalbagh Botanical Garden"
+    },
+    {
+      "id": 11,
+      "trip_id": 2,
+      "name": "Cubbon Park"
+    },
+    {
+      "id": 12,
+      "trip_id": 2,
+      "name": "Bangalore Palace"
+    },
+    {
+      "id": 13,
+      "trip_id": 2,
+      "name": "MG Road Shopping"
+    },
+    {
+      "id": 14,
+      "trip_id": 2,
+      "name": "Bannerghatta Biological Park"
+    },
+    {
+      "id": 15,
+      "trip_id": 2,
+      "name": "Nandi Hills"
+    },
+    {
+      "id": 16,
+      "trip_id": 3,
+      "name": "Lalbagh Botanical Garden"
+    },
+    {
+      "id": 17,
+      "trip_id": 3,
+      "name": "Cubbon Park"
+    },
+    {
+      "id": 18,
+      "trip_id": 3,
+      "name": "Bangalore Palace"
+    },
+    {
+      "id": 19,
+      "trip_id": 3,
+      "name": "MG Road"
+    },
+    {
+      "id": 20,
+      "trip_id": 3,
+      "name": "Bannerghatta Biological Park"
+    },
+    {
+      "id": 21,
+      "trip_id": 3,
+      "name": "Nandi Hills"
+    },
+    {
+      "id": 22,
+      "trip_id": 3,
+      "name": "Commercial Street"
+    },
+    {
+      "id": 23,
+      "trip_id": 3,
+      "name": "Romantic Rooftop Dinner"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "day_id": 1,
+      "place_id": 3,
+      "order_index": 0,
+      "place_time": "10:00"
+    },
+    {
+      "id": 2,
+      "day_id": 1,
+      "place_id": 4,
+      "order_index": 1,
+      "place_time": "14:00"
+    },
+    {
+      "id": 3,
+      "day_id": 2,
+      "place_id": 1,
+      "order_index": 0,
+      "place_time": "09:00"
+    },
+    {
+      "id": 4,
+      "day_id": 2,
+      "place_id": 8,
+      "order_index": 1,
+      "place_time": "18:00"
+    },
+    {
+      "id": 5,
+      "day_id": 3,
+      "place_id": 2,
+      "order_index": 0,
+      "place_time": "10:00"
+    },
+    {
+      "id": 6,
+      "day_id": 3,
+      "place_id": 5,
+      "order_index": 1,
+      "place_time": "15:00"
+    },
+    {
+      "id": 7,
+      "day_id": 4,
+      "place_id": 6,
+      "order_index": 0,
+      "place_time": "09:00"
+    },
+    {
+      "id": 8,
+      "day_id": 5,
+      "place_id": 7,
+      "order_index": 0,
+      "place_time": "10:00"
+    },
+    {
+      "id": 9,
+      "day_id": 8,
+      "place_id": 2,
+      "order_index": 0,
+      "place_time": "10:00"
+    },
+    {
+      "id": 10,
+      "day_id": 8,
+      "place_id": 3,
+      "order_index": 1,
+      "place_time": "14:00"
+    },
+    {
+      "id": 11,
+      "day_id": 9,
+      "place_id": 4,
+      "order_index": 0,
+      "place_time": "11:00"
+    },
+    {
+      "id": 12,
+      "day_id": 9,
+      "place_id": 5,
+      "order_index": 1,
+      "place_time": "16:00"
+    },
+    {
+      "id": 13,
+      "day_id": 10,
+      "place_id": 6,
+      "order_index": 0,
+      "place_time": "09:00"
+    },
+    {
+      "id": 14,
+      "day_id": 11,
+      "place_id": 7,
+      "order_index": 0,
+      "place_time": "05:00"
+    },
+    {
+      "id": 15,
+      "day_id": 8,
+      "place_id": 10,
+      "order_index": 2,
+      "place_time": "10:00"
+    },
+    {
+      "id": 16,
+      "day_id": 8,
+      "place_id": 11,
+      "order_index": 3,
+      "place_time": "14:00"
+    },
+    {
+      "id": 17,
+      "day_id": 9,
+      "place_id": 12,
+      "order_index": 2,
+      "place_time": "11:00"
+    },
+    {
+      "id": 18,
+      "day_id": 9,
+      "place_id": 13,
+      "order_index": 3,
+      "place_time": "16:00"
+    },
+    {
+      "id": 19,
+      "day_id": 10,
+      "place_id": 14,
+      "order_index": 1,
+      "place_time": "09:00"
+    },
+    {
+      "id": 20,
+      "day_id": 11,
+      "place_id": 15,
+      "order_index": 1,
+      "place_time": "05:00"
+    },
+    {
+      "id": 21,
+      "day_id": 13,
+      "place_id": 17,
+      "order_index": 0,
+      "place_time": "10:00"
+    },
+    {
+      "id": 22,
+      "day_id": 13,
+      "place_id": 19,
+      "order_index": 1,
+      "place_time": "16:00"
+    },
+    {
+      "id": 23,
+      "day_id": 14,
+      "place_id": 18,
+      "order_index": 0,
+      "place_time": "11:00"
+    },
+    {
+      "id": 24,
+      "day_id": 14,
+      "place_id": 22,
+      "order_index": 1,
+      "place_time": "15:00"
+    },
+    {
+      "id": 25,
+      "day_id": 15,
+      "place_id": 16,
+      "order_index": 0,
+      "place_time": "09:00"
+    },
+    {
+      "id": 26,
+      "day_id": 15,
+      "place_id": 23,
+      "order_index": 1,
+      "place_time": "20:00"
+    },
+    {
+      "id": 27,
+      "day_id": 16,
+      "place_id": 20,
+      "order_index": 0,
+      "place_time": "09:00"
+    },
+    {
+      "id": 28,
+      "day_id": 17,
+      "place_id": 21,
+      "order_index": 0,
+      "place_time": "05:00"
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "trip_id": 2,
+      "title": "Stay at The Leela Palace",
+      "type": "hotel",
+      "status": "pending",
+      "place_id": 1
+    }
+  ],
+  "accommodations": [],
+  "packing": [],
+  "budget": [],
+  "todos": []
+}

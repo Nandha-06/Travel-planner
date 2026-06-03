@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-slate-750: #293548;
+  --color-slate-850: #182032;
+
+  --color-indigo-50: #f4f5ff;
+  --color-indigo-100: #e9ebff;
+  --color-indigo-200: #d2d6ff;
+  --color-indigo-300: #adb5ff;
+  --color-indigo-400: #838cff;
+  --color-indigo-500: #5d5cff;
+  --color-indigo-600: #4a42ff;
+  --color-indigo-700: #3b30e6;
+  --color-indigo-800: #2f27bc;
+  --color-indigo-900: #2a2595;
+  --color-indigo-950: #181658;
+
+  --color-rose-500: #f43f5e;
+  --color-rose-600: #e11d48;
+
+  --color-amber-400: #fbbf24;
+  --color-amber-500: #f59e0b;
+
+  --animate-float-slow: float-slow 15s ease-in-out infinite;
+  --animate-float-slower: float-slower 20s ease-in-out infinite;
+
+  @keyframes float-slow {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(30px, -40px) scale(1.1); }
+  }
+  @keyframes float-slower {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(-30px, 45px) scale(0.9); }
+  }
+}
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    @apply antialiased text-slate-100 bg-slate-950;
+  }
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 9999px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 9999px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.16);
+  }
+}
